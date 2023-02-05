@@ -8,5 +8,6 @@ public class RegistrarTest
     [Fact]
     public void Initial()
     {
+        // Not implmented
     }
 }
