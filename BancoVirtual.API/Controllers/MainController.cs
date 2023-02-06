@@ -185,9 +185,6 @@ public class MainController : Controller
                 {
                     Code = 500,
                     Status = "Um erro ocorreu",
-                    Transferidor = null,
-                    Transferido = null,
-                    Valor = null
                 };
             }
         }
@@ -197,9 +194,6 @@ public class MainController : Controller
             {
                 Code = 500,
                 Status = "Um erro ocorreu",
-                Transferidor = null,
-                Transferido = null,
-                Valor = null
             };
         }
     }
