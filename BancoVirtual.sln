@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoVirtual.API", "BancoVirtual.API\BancoVirtual.API.csproj", "{4DAB1816-8433-49A7-9E96-1C359AAAFE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoVirtual.Tests", "BancoVirtual.Tests\BancoVirtual.Tests.csproj", "{749F4EA1-5558-4256-A646-33C3059FFD53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DAB1816-8433-49A7-9E96-1C359AAAFE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAB1816-8433-49A7-9E96-1C359AAAFE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAB1816-8433-49A7-9E96-1C359AAAFE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAB1816-8433-49A7-9E96-1C359AAAFE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749F4EA1-5558-4256-A646-33C3059FFD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749F4EA1-5558-4256-A646-33C3059FFD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749F4EA1-5558-4256-A646-33C3059FFD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749F4EA1-5558-4256-A646-33C3059FFD53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

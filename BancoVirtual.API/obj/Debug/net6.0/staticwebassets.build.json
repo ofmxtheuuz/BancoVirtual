@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yDp9tz8GNrdTHygqI6FmcSRbmkGB+Vjf1CQYkIIoa1c=",
+  "Source": "BancoVirtual.API",
+  "BasePath": "_content/BancoVirtual.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
