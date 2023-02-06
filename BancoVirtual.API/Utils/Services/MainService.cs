@@ -7,8 +7,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BancoVirtual.API.Utils.Services;
 
+// Services for Main Controller
 public class MainService : IMainService
 {
+    // constructor
     public MainService(sqlserverdbcontext context)
     {
         this.context = context;
@@ -16,11 +18,13 @@ public class MainService : IMainService
 
     public sqlserverdbcontext context { get; set; }
     
+    //      /v3/contas
     public async Task<List<Conta>> Accounts()
     {
         return await context.Contas.ToListAsync();
     }
 
+    //      /v3/registrar
     public async Task<dynamic> Registrar(RegisterRequest req)
     {
         try
@@ -54,6 +58,7 @@ public class MainService : IMainService
         
     }
 
+    //      /v3/transferir
     public async Task<bool> Transferir(TransferRequest req)
     {
         try
@@ -98,6 +103,7 @@ public class MainService : IMainService
         }
     }
 
+    //      /v3/conta
     public async Task<Conta> Usuario(UsuarioRequest req)
     {
         return await context
@@ -109,6 +115,8 @@ public class MainService : IMainService
                     .Titular
                     .ToLower()));
     }
+    
+    //      /v3/extrato
 
     public async Task<dynamic> Extrato(ExtratoRequest req)
     {
@@ -136,7 +144,5 @@ public class MainService : IMainService
         {
             return false;
         }
-
-        return false;
     }
 }
